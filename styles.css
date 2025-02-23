@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info p {
+    margin-bottom: 0;
+}
+body {
+    background-color: rgb(165, 245, 208);
+}
+h1, h2 {
+    font-family: "Fascinate", serif;
+}
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(90, 194, 145);
+}
+header h1 {
+    color: rgb(18, 56, 38);
+}
+#game-container {
+    position: relative;
+    width: 40%;
+    min-width: 300px;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(23, 147, 89);
+    margin: 20px auto;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+.square {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.carousel {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.regras {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.regras h2 {
+    align-self: center;
+}
+.carrosel {
+    display: flex;
+    justify-content: center;
+}
+#start-button {
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(23, 147, 89);
+}
+#start-button:disabled {
+    background-color: rgb(122, 168, 147);
+}
